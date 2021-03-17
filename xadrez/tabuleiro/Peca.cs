@@ -13,7 +13,9 @@ namespace tabuleiro
         public Peca (Posicao posicao, Tabuleiro tab, Cor cor)
         {
             this.posicao = posicao;
-
+            this.tab = tab;
+            this.cor = cor;
+            this.qteMovimentos = 0;
         }
     }
 }
